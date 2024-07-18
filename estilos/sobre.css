@@ -1,0 +1,36 @@
+#sobre{
+    height: 85vh;
+    display: flex;
+    background-color: #f6dab9;
+
+}
+
+.container-sobre{
+    min-height: 85vh;
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-sobre h2{
+    margin: 20px 0px 20px 20px;
+    font-size: 28px;
+}
+
+.container-sobre p{
+    max-width: 800px;
+    text-indent: 1.25cm;
+    text-align: justify;
+    
+}
+.foto-sobre{
+    display: flex;
+    align-items: center;
+}
+
+.foto-sobre img{
+    height: 300px;
+    margin: 0px 50px;
+}
+

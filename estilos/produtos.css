@@ -1,0 +1,121 @@
+#produtos-1{
+    min-height: 30vh;
+    background-color: #fbf4eb;
+}
+
+#produtos-1 .container-produtos{
+    
+    min-height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h2-produtos1{
+    margin: 0px 0px 20px 60px;
+    padding-top: 20px;
+}
+.sobre-valor{
+    background-color: #fdecdaff;
+    width: 260px;
+    min-height: 30vh;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 0px 0px 40px 20px;
+    box-shadow: 1px 1px 5px #ebe0e0;
+    
+}
+
+.valor-prod{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.valor-prod span{
+    margin-right: 10px;
+}
+
+#produtos-1 .sobre-valor{
+    padding: 20px 0px;
+}
+
+.produtos-desc{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.produtos-desc h3, p{
+    font-size: medium;
+    margin: 0px;
+}
+.container-produtos .imagem-produtos img{
+    height: 150px;
+    border-radius: 6px;
+}
+.imagem-produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PRODUTOS 2 */
+
+#produtos-2{
+    background-color: #fbf4eb;
+    min-height: 90vh;
+}
+
+.container-produtos2 .produtos {
+    background-color: rgba(240, 248, 255, 0);
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-produtos2 .imagem-produtos img{
+    height: 150px;
+    border-radius: 6px;
+}
+
+.container-produtos2 .sobre-valor{
+    min-height: 36vh;
+    margin: 10px;
+    padding: 20px 0px;
+}
+
+.produtos-2-h2{
+    display: flex;
+}
+
+.produtos-2-h2 h2{
+    margin: 20px 0px 0px 60px;
+}
+
+
+.prod-nome{
+    font-weight: 400;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.add-carrinho{
+    background-color: #ffeebd;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,80 @@
+.section-carrinho{
+    height: 100vh;
+    width: 100%;
+    background-color: #f4f4f4;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carrinho{
+    min-height: 80vh;
+    width: 70%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrinho{
+    width: 100%;
+    min-height: 60vh;
+}
+
+table{
+    width: 100%;
+    min-height: 60vh;
+}
+
+.descricao{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.desc-prod{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 1px 1px 5px #cccccc;
+}
+
+.btn-remover{
+    height: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px #929292;
+    background-color: #fff2f2;
+}
+
+.btn-quant{
+    width: 45px;
+    height: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.foto-prod{
+    height: 100px;
+}
+
+.total{
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total td{
+    margin: 0px 10px;
+}

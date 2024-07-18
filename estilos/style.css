@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: #e8dfd4;
+    height: 10vh;
+    padding: 0px 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    margin: 0;
+}
+ul li{
+    display: inline; 
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #000;
+}
+
+.login-btn {
+    display: flex;
+    flex-direction: row; 
+}
+
+.login-btn button{
+    padding: 0px 5px;
+    margin: 0px 5px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+.login-btn button a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+
+@media (max-width:730px) {
+    
+
+    .nav-item, .login-btn{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul, .mobile-menu .login-btn{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .login-btn{
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open{
+        display: block;
+    }
+
+    .icon{
+        height: 24px;
+    }
+}
+
+
+h1, h2{
+    font-weight: 400;
+}
+

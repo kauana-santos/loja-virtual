@@ -31,18 +31,17 @@ ul li a{
     color: #000;
 }
 
-.login-btn {
-    display: flex;
-    flex-direction: row; 
-}
-
-.login-btn button{
-    padding: 0px 5px;
+.cart-btn button{
+    padding: 5px;
     margin: 0px 5px;
-    background-color: antiquewhite;
+    background-color: transparent;
     border-radius: 5px;
     border: 0;
     cursor: pointer;
+}
+
+.cart-btn button:hover{
+    background-color: #c3c3c3;
 }
 .login-btn button a{
     text-decoration: none;
@@ -58,6 +57,9 @@ ul li a{
 
 @media (max-width:730px) {
     
+    .mobile-menu{
+        background-color: #e8dfd4;
+    }
 
     .nav-item, .login-btn{
         display: none;

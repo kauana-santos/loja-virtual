@@ -10,7 +10,7 @@
 .container-carrinho{
     min-height: 80vh;
     width: 70%;
-    background-color: bisque;
+    background-color: #c8e2c3;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

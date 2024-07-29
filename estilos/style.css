@@ -10,13 +10,15 @@ html{
 }
 
 nav{
-    background-color: #e8dfd4;
+    background-color: #b6c5bb;
+    width: 100%;
     height: 10vh;
     padding: 0px 4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 ul{
     margin: 0;

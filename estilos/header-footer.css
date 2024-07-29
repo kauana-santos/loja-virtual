@@ -5,8 +5,8 @@ header, #sobre{
 }
 
 header{
-    background-image: url(./assets/foto-header.jpg);
-    background-color: antiquewhite;
+    background-image: url(./assets/banner1.png);
+    background-color: #c7ddc8;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -37,7 +37,7 @@ header{
 /* FOOTER */
 
 footer{
-    background-color: #ffe7c1;
+    background-color: #b6c5bb94;
     height: 35vh;
     display: flex;
     flex-wrap: wrap;

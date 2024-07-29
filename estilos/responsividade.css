@@ -1,6 +1,6 @@
 @media (max-width: 790px) {
     header{
-        background-image: url(./assets/foto-header3.jpg);
+        background-image: url(./assets/banner3.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -26,7 +26,7 @@
 
 @media (min-width:790px) and (max-width: 1000px) {
     header{
-         background-image: url(./assets/foto-header2.jpg);
+         background-image: url(./assets/banner2.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }

@@ -9,6 +9,7 @@ header{
     background-color: #c7ddc8;
     background-repeat: no-repeat;
     background-size: 100%;
+    
 }
 
 .container{
@@ -27,10 +28,12 @@ header{
 
 .texto h1{
     font-size: 40px;
+    font-family: 'edenson';
+    font-weight: 500;
 }
 
 .texto p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 

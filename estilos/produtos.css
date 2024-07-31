@@ -51,8 +51,14 @@
     flex-direction: column;
     align-items: center;
 }
-.produtos-desc h3, p{
+
+.produtos-desc h3{
+    font-weight: 600;
+    color: #3f3f3f;
     font-size: medium;
+}
+.produtos-desc p{
+    font-size: 15px;
     margin: 0px;
 }
 .container-produtos .imagem-produtos img{

@@ -91,14 +91,12 @@ const cartIcone = document.querySelector(" button .cart-icone")
 const carrinho = document.querySelector(" .section-carrinho")
 const homeSec = document.querySelector("#home")
 const sobreSec = document.querySelector("#sobre")
-const produtos1Sec = document.querySelector("#produtos-1")
 const produtos2Sec = document.querySelector("#produtos-2")
 
 cartIcone.addEventListener("click", () => {
     carrinho.style.display = "flex";
     homeSec.style.display = "none";
     sobreSec.style.display = "none";
-    produtos1Sec.style.display = "none";
     produtos2Sec.style.display = "none";
 })
 
@@ -108,7 +106,6 @@ btnHome.addEventListener("click", (event) =>{
     carrinho.style.display = "none";
     homeSec.style.display = "flex";
     sobreSec.style.display = "flex";
-    produtos1Sec.style.display = "block";
     produtos2Sec.style.display = "flex";
 })
 
